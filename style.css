@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(52, 53, 54);
+}
+
+header{
+    color:blanchedalmond
+}
+
+.cityBtns{
+    font-size: 30px;
+    background-color:rgb(127, 179, 221);
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cityBtns:hover{
+    font-size: 40px;
+    color:white;
+}
+
+.searchInv{
+    color:white;
+    font-size: 30px;
+}
+
+.head{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size:30px
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(66, 163, 134);
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#parent{
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    width: 30%;
+}
+
+#right{
+    width: 50%;
+    margin: 10px;
+}
+
+#dataBox{
+    width: 90%;
+    height: 50%;
+    background-color: rgb(52, 53, 54);
+    outline: 3px solid black;
+}
+
+#city{
+    font-size: 30px;
+    color:white;
+}
+
+#cityInfo{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
